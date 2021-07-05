@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style type="text/css">
+	
+	*
+{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none ;
+}
+
+.header
+{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #101010;
+
+}
+
+.inner_header
+{
+    width: 1000px;
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+    
+}
+
+.logo_container
+{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200px;
+}
+
+.logo_container span{
+    font-weight: 800px;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+.main_para
+{
+    background-color: #EBCAB7;
+}
+.swami_head
+{
+    font-size: 50px;
+}
+.para1
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 30px;
+    padding: 10px;
+
+}
+.footer
+{
+    background-color: #953b1d;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    height: 400px;
+}
+.footer a
+{
+    color: white;
+    padding: 0px 20px;
+}
+
+
+.footer a li
+{
+    float: right;
+    margin-right: 10px;
+    text-align: center;
+    display: block;
+    padding: 5px;
+  
+
+}
+
+
+.form123
+{
+    text-align: center;
+}
+#first {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        #second {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        #third {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+</head>
+
+<body>
+<section class="main_para">
+	
+	<div class="header" >
+		<div class="inner_header">
+			<div class="logo_container">
+								<a href="home.html">   
+<br>
+				<h1>Marketing <span>Project</span></h1>
+			</div>
+
+			<ul class="navigation">
+
+
+
+				    <a href="home.html"><li>Home</li></a>
+				    
+			</ul>
+		</div>
+	    </div>
+
+  
+  
+<br><br>
+<h1 align="center" class="swami_head">Predict the Sales</h1>
+
+  
+<br><br>
+
+<p align="center" class="para1">
+
+So, the objective is to develop a model that you can use to predict the sales on the basis of the three media budgets.
+
+
+
+
+
+	<br>
+
+
+
+
+<br><br>
+<b>
+
+Let's Predict</b> <br>
+
+<br>
+<br>
+<b>
+
+
+
+<img src="static/om1.png" align="center">
+
+
+
+</p>
+</div>
+<br><br>
+
+
+
+
+    <div style="color:blue">
+
+<center>
+<form action="{{ url_for('predict')}}" method="POST"> 
+    
+    <h1>TV Expense</h1> 
+            <input id="first" name="TV"  type="number "required="required" />   <br><br><br>
+
+    <h1>Radio Expense</h1>
+            <input id="first" name="Radio" type="number "required="required" />  <br><br><br>
+
+    <h1>Newspaper</h1>
+            <input id="first" name="Newspaper" type="number "required="required" />  <br><br><br> 
+
+
+<br><br><button id="first" type="submit"> Predict </button>  <br><br>
+
+
+       
+
+
+        </form>
+
+
+
+        <br><br><h3>{{ prediction_text }}<h3>
+    </div>
+
+<br><br><br>
+
+
+
+</center> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+<div class="footer">
+<br><br>
+
+                    
+                    
+
+
+					<br><br><br>
+
+                             
+                             JECRC University <br><br>
+                             © 2019–2021 Samatrix Consulting Pvt Ltd <br>
+							 AI Driven Learning Platform
+                             <br>
+                             Jaipur
+
+                              <br> <br>
+
+					 Yash.20mcin005@jecrcu.edu.in
+
+
+
+
+<br><br><br>
+Created by Yash Kumar Sharma
+<br><br>
+
+
+
+</div>
+</div>
+
+
+</body>
+
+
+
+
+</html>

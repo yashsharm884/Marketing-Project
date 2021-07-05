@@ -1,0 +1,28 @@
+appdirs==1.4.4
+certifi==2020.12.5
+click==7.1.2
+distlib==0.3.1
+Flask==1.1.1
+gast==0.3.3
+gunicorn==20.0.4
+itsdangerous==1.1.0
+Jinja2==2.11.3
+joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1612898609989/work
+Keras-Preprocessing==1.1.2
+MarkupSafe==1.1.1
+numpy==1.18.1
+opt-einsum==3.3.0
+pandas==1.0.3
+python-dateutil==2.8.1
+pytz==2021.1
+scikit-learn==0.22.1
+scipy @ file:///C:/bld/scipy_1619562091939/work
+six==1.16.0
+tensorboard==2.4.0
+tensorboard-plugin-wit==1.7.0
+tensorflow==2.3.1
+termcolor==1.1.0
+threadpoolctl @ file:///tmp/tmp79xdzxkt/threadpoolctl-2.1.0-py3-none-any.whl
+virtualenv==20.2.2
+Werkzeug==1.0.1
+wincertstore==0.2
